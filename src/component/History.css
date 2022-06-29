@@ -1,0 +1,35 @@
+.history {
+  background-color: #2d2f33;
+  width: 60vh;
+  height: auto;
+  margin: 3vh;
+  padding: 2vh;
+}
+
+.tit {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btnh {
+  background-color: #282a2e;
+  font-size: 12px;
+  border-radius: 20px;
+  color: darkgray;
+  height: 5vh;
+  border: none;
+  padding: 1vh;
+}
+
+.pr {
+  color: darkgray;
+  font-size: 15px;
+  padding-top: 2vh;
+}
+
+.linkh {
+  color: #e3882d;
+  font-size: 13px;
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.form-group {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.iconc {
+  padding: 10px;
+  background: #282a2e;
+  color: darkgrey;
+  min-width: 50px;
+  text-align: center;
+  height: 50px;
+  font-size: 5px;
+}
+
+.form-control {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  background-color: #2d2f33;
+}
+
+.btnc {
+  background-color: #e3882d;
+  margin-left: 10vh;
+  width: 30vh;
+  height: 10vh;
+  margin-top: 5vh;
+  font-size: 18px;
+}
