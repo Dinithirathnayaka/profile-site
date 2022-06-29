@@ -17,6 +17,7 @@ import LeftGrid from "../component/Grid Section/LeftGrid";
 import "../component/Contact.css";
 import { IconContext } from "react-icons";
 import addform from "../component/repositiories/contactrepo";
+import LeftGridNew from "../component/Grid Section/LeftGridNew";
 
 function Contact() {
   const [message, setMessage] = useState("");
@@ -77,11 +78,17 @@ function Contact() {
         {/*---------------------------------
              -----Left Grid Section-------- 
              -----------------------------------*/}
-        <div className="left col-3">
+             <div className="col-lg-3 col-1">
+             <div className="left ">
           <LeftGrid />
         </div>
+        <div className="leftnew">
+                <LeftGridNew/>
+              </div>
+             </div>
+       
 
-        <div className="middle col-9">
+        <div className="middle col-lg-9 col-10">
           <div className="main-image">
             <img src={image} style={{ height: "65vh", width: "100%" }} />
           </div>
