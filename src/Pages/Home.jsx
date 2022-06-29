@@ -1,17 +1,8 @@
 import React from "react";
-//import Typical from 'react-typical';
 import image from "../images/mountain.jpg";
 import facemain from "../images/face-2.jpg";
 import { BiChevronRight } from "react-icons/bi";
 import { FaEllipsisV } from "react-icons/fa";
-// import { FaCheck } from "react-icons/fa";
-// import { FaTimes } from "react-icons/fa";
-//import { BiMenu } from "react-icons/bi";
-// import faceone from "../images/face-2.jpg";
-// import facetwo from "../images/face-3.jpg";
-// import spoone from "../images/1.png";
-// import spotwo from "../images/2.png";
-// import spothree from "../images/3.png";
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
 import "../component/History.css";
@@ -24,9 +15,12 @@ function Home() {
              -----Left Grid Section-------- 
              -----------------------------------*/}
              
-             <div className=" col-3">
-              <div className="left">
+             <div className=" col-lg-3 col-1">
+              <div className="left ">
               <LeftGrid  />
+              </div>
+              <div className="leftnew">
+                <LeftGridNew/>
               </div>
              
           
@@ -36,12 +30,10 @@ function Home() {
        
         
 
-        <div className="middle col-9">
+        <div className="middle col-lg-9 col-11">
        
 
-          <div className="togicon">
-             <FaEllipsisV className="togopen"/>
-          </div>
+   
           <div className="main-image">
             <img src={image} style={{ height: "65vh", width: "100%" }} />
           </div>
