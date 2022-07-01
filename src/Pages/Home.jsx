@@ -122,7 +122,7 @@ function Home() {
 <h5 className="maintopic">Education</h5>
 
 <div className="row">
-<div className="col-6 history">
+            <div className=" mx-auto d-block history"  style={{width: "65vh",padding: "30px",marginBottom : "2vh" }} >
                 <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
                 <p className="small-text text-muted">Student</p>
                 <button className="btnh text-muted">jan 2020-jan 2021</button>
@@ -137,7 +137,7 @@ function Home() {
                 </a>
               </div>
 
-              <div className="col-6 history">
+              <div className=" mx-auto d-block history" style={{width: "65vh",padding: "30px" ,marginBottom :"2vh"}}>
                 <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
                 <p className="small-text text-muted">Student</p>
                 <button className="btnh text-muted">jan 2020-jan 2021</button>
@@ -160,7 +160,8 @@ function Home() {
 
             <h5 className="maintopic">My Services</h5>
             <div className="row" style={{ marginBottom: "3vh" }}>
-              <div className="col-4 hi mx-auto d-block">
+
+              <div className="   mx-auto d-block hi" style={{ marginBottom: "2vh" }}>
                 <h6 className="subtopic">Mobile Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -168,15 +169,9 @@ function Home() {
                   quaerat tenetur pariatur doloribus.
                 </p>
 
-                <div className="openicon">
-                  {" "}
-                  <p>
-                    Order Now <BiChevronRight />
-                  </p>
-                </div>
               </div>
 
-              <div className="col-4 hi mx-auto d-block">
+              <div className="  mx-auto d-block hi " style={{ marginBottom: "2vh" }}>
                 <h6 className="subtopic">Web Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -184,27 +179,18 @@ function Home() {
                   quaerat tenetur pariatur doloribus.
                 </p>
 
-                <div className="openicon">
-                  {" "}
-                  <p>
-                    Order Now <BiChevronRight />
-                  </p>
                 </div>
-              </div>
-              <div className="col-4 hi mx-auto d-block">
-                <h6 className="subtopic">Destop Development</h6>
+                <div className=" mx-auto d-block hi " style={{ marginBottom: "2vh" }}>
+                <h6 className="subtopic" >Destop Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Delectus esse commodi deserunt vitae, vero quasi! Veniam
                   quaerat tenetur pariatur doloribus.
                 </p>
-                <div className="openicon">
-                  {" "}
-                  <p>
-                    Order Now <BiChevronRight />
-                  </p>
-                </div>
+            
               </div>
+              
+          
             </div>
  
 
@@ -213,9 +199,9 @@ function Home() {
              -----Footer Section-------- 
              -----------------------------------*/}
 
-            <div className="main-footer" style={{ color: "darkgrey " }}>
-              <p>© 2021 Artur Carter</p>
-              <p style={{ marginLeft: "75vh " }}>
+            <div className="main-footer" style={{ color: "darkgrey ", paddingTop:"2.5vh" }}>
+              <p style={{paddingLeft:"3vh"}}>© 2022 </p>
+              <p style={{ marginLeft: "100vh " }}>
                 Template author: Dinithi Rathnayake
               </p>
             </div>

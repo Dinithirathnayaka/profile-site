@@ -2,17 +2,11 @@ import React, { useState } from "react";
 import { useFormik } from "formik";
 import image from "../images/mountain.jpg";
 
-import { BiChevronRight } from "react-icons/bi";
-import { FaCheck } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa";
+
 import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaAt } from "react-icons/fa";
-import faceone from "../images/face-2.jpg";
-import facetwo from "../images/face-3.jpg";
-import spoone from "../images/1.png";
-import spotwo from "../images/2.png";
-import spothree from "../images/3.png";
+
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import "../component/Contact.css";
 import { IconContext } from "react-icons";
@@ -73,7 +67,7 @@ function Contact() {
     validate,
   });
   return (
-    <div>
+    <div className="main-bar">
       <div className="row grid-container">
         {/*---------------------------------
              -----Left Grid Section-------- 
@@ -101,88 +95,53 @@ function Contact() {
             <div className="row contact">
               <h5 className="maintopic">Contact Information</h5>
               <div
-                className="col-4 mx-auto d-block"
+                className="col-6 mx-auto d-block"
                 style={{
                   backgroundColor: "#2d2f33",
-                  width: "40vh",
+                  width: "60vh",
                   padding: "30px",
+                  marginBottom: "2vh"
                 }}
               >
-                <p style={{ color: "#fff" }}>
-                  Country:
-                  <span className="text-muted" style={{ marginLeft: "7vh" }}>
-                    Sri Lanka
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  City:
-                  <span className="text-muted" style={{ marginLeft: "8vh" }}>
-                    Kurunegala
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  Steat:
-                  <span className="text-muted" style={{ marginLeft: "11vh" }}>
-                    Kurunegala
-                  </span>
-                </p>
+                <div className="row">
+                  <div className="col-6" >
+                  <p style={{ color: "#fff" }}>Country:</p>
+                  <p style={{ color: "#fff" }}>City:</p>
+                  <p style={{ color: "#fff" }}> Steat:</p>
+                
+                  </div>
+                  <div className="col-6" >
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Sri Lanka</p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Kurunegala</p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Kurunegala</p>
+                  </div>
+                </div>
+     
               </div>
               <div
-                className="col-4 mx-auto d-block"
+                className="col-6 mx-auto d-block"
                 style={{
                   backgroundColor: "#2d2f33",
-                  width: "40vh",
+                  width: "60vh",
                   padding: "30px",
+                   marginBottom: "2vh"
                 }}
               >
-                <p style={{ color: "#fff" }}>
-                  Email:
-                  <span className="text-muted" style={{ marginLeft: "3vh" }}>
-                    supunnilakshana1999@gmail.com
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  Telegram:
-                  <span className="text-muted" style={{ marginLeft: "6vh" }}>
-                    @supun
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  Instagram:
-                  <span className="text-muted" style={{ marginLeft: "6vh" }}>
-                    @supun
-                  </span>
-                </p>
+                <div className="row">
+                  <div className="col-6">
+                  <p style={{ color: "#fff" }}>Email:</p>
+                  <p style={{ color: "#fff" }}>Contact number:</p>
+                  <p style={{ color: "#fff" }}>Whapp:</p>
+                
+                  </div>
+                  <div className="col-6">
+                    <p className="text-muted" style={{ marginLeft: "-5.5vh" }}>supunnilakshana@gmail.com</p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>0770000000</p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>0770000000</p>
+                  </div>
+                </div>
               </div>
-              <div
-                className="col-4 mx-auto d-block"
-                style={{
-                  backgroundColor: "#2d2f33",
-                  width: "40vh",
-                  padding: "30px",
-                }}
-              >
-                <p style={{ color: "#fff" }}>
-                  Support
-                  <br />
-                  Service:
-                  <span className="text-muted" style={{ marginLeft: "5vh" }}>
-                    05700000000
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  Office:
-                  <span className="text-muted" style={{ marginLeft: "5vh" }}>
-                    0000000000
-                  </span>
-                </p>
-                <p style={{ color: "#fff" }}>
-                  Personal:
-                  <span className="text-muted" style={{ marginLeft: "5vh" }}>
-                    000000000
-                  </span>
-                </p>
-              </div>
+        
             </div>
 
             {/*---------------------------------
@@ -281,51 +240,14 @@ function Contact() {
             </div>
             <br/><br/>
 
-            {/*---------------------------------
-             -----Sponcer Section-------- 
-             -----------------------------------*/}
-{/* 
-            <div className="row Sponcer">
-              <div className="col-3">
-                {" "}
-                <img
-                  src={spoone}
-                  alt=""
-                  style={{ height: "25vh", width: "25vh" }}
-                />
-              </div>
-              <div className="col-3">
-                {" "}
-                <img
-                  src={spotwo}
-                  alt=""
-                  style={{ height: "25vh", width: "25vh" }}
-                />
-              </div>
-              <div className="col-3">
-                {" "}
-                <img
-                  src={spothree}
-                  alt=""
-                  style={{ height: "25vh", width: "25vh" }}
-                />
-              </div>
-              <div className="col-3">
-                {" "}
-                <img
-                  src={spoone}
-                  alt=""
-                  style={{ height: "25vh", width: "25vh" }}
-                />
-              </div>
-            </div> */}
+     
             {/*---------------------------------
              -----Footer Section-------- 
              -----------------------------------*/}
 
-            <div className="main-footer" style={{ color: "darkgrey " }}>
-              <p>© 2021 Artur Carter</p>
-              <p style={{ marginLeft: "75vh " }}>
+<div className="main-footer" style={{ color: "darkgrey ", paddingTop:"2.5vh" }}>
+              <p style={{paddingLeft:"3vh"}}>© 2022 </p>
+              <p style={{ marginLeft: "100vh " }}>
                 Template author: Dinithi Rathnayake
               </p>
             </div>
