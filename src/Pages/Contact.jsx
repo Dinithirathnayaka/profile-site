@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useFormik } from "formik";
 import image from "../images/mountain.jpg";
 
-
 import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaAt } from "react-icons/fa";
