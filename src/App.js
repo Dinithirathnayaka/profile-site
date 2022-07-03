@@ -1,13 +1,7 @@
 import "./App.css";
-// import Navbar from "./component/Navbar";
 import Home from "./Pages/Home";
-// import History from "./Pages/History";
-// import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
-// import Blog from "./Pages/Blog";
-// import { BiMenu } from "react-icons/bi";
-import {FaPhoneAlt} from "react-icons/fa";
-import {FaUserAlt} from "react-icons/fa";
+
 
 import {
   BrowserRouter as Router,
@@ -23,11 +17,8 @@ function App() {
       <Router>
         <div className="header-bar">
           <nav>
-         
-            <Link to="/"><FaUserAlt style={{color: "#616161" , }}/></Link>
-            <a href="/contact"> <FaPhoneAlt style={{color: "#616161" }}/></a>
-            
-          
+         <Link to="/"><button className="homenav" >Home</button></Link>
+          <a href="/contact"><button className="contactnav">Contact</button></a>
           </nav>
         </div>
 

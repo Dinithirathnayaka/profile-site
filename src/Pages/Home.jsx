@@ -200,10 +200,8 @@ function Home() {
              -----------------------------------*/}
 
             <div className="main-footer" style={{ color: "darkgrey ", paddingTop:"2.5vh" }}>
-              <p style={{paddingLeft:"3vh"}}>© 2022 </p>
-              <p style={{ marginLeft: "100vh " }}>
-                Template author: Dinithi Rathnayake
-              </p>
+              <p style={{paddingLeft:"5%"}}>© 2022 All rights reserved.Template author: Dinithi Rathnayake </p>
+              
             </div>
           </div>
         </div>

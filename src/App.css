@@ -12,15 +12,26 @@ body {
   height: 60px;
   background-color: #2d2f33;
   border-bottom: 1px solid black;
-  font-size: 25px;
-  padding-left:93vw;
+  padding-left: 85vw;
+  padding-top: 2.5vh;
 
-  
 }
 
-nav:active{
-  color:#fff;
+.header-bar button{
+  background-color: #e3882d;
+
 }
+
+.homenav:hover{
+  background-color: #616161;
+
+}
+
+.contactnav:hover{
+ background-color: #616161;
+}
+
+
 
 .main-bar {
 
@@ -300,12 +311,12 @@ nav:active{
 .pro-icon {
   color: darkgrey;
   position: relative;
-  margin-left: 11vh;
+  margin-left: 25%;
 }
 
 .iconf {
   margin-top: 3vh;
-  margin-right: 10vh;
+  margin-right: 6vh;
 }
 
 /*----------- -----------
@@ -480,6 +491,8 @@ nav:active{
   margin-top: 50%;
 }
 
+
+
 /*----------- -----------
 ---------LeftGridNew Section---
 -------------------------*/
@@ -591,9 +604,9 @@ nav:active{
 }
 
 
-  
-
 }
+
+
 
 
 

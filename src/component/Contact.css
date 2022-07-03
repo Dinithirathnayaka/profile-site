@@ -12,7 +12,7 @@
   min-width: 50px;
   text-align: center;
   height: 50px;
-  font-size: 5px;
+  font-size: 3px;
 }
 
 .form-control {
@@ -24,11 +24,13 @@
 
 .btnc {
   background-color: #e3882d;
-  margin-left: 10vh;
-  width: 30vh;
-  height: 10vh;
+  margin-left: 5vw;
+  width: auto;
+  height: auto;
   margin-top: 5vh;
   font-size: 18px;
+  padding: 20px;
+  font-weight: bold;
 }
 
 .grid-container{
