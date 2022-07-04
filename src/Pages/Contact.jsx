@@ -10,38 +10,41 @@ import { IconContext } from "react-icons";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
 
 function Contact() {
- 
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_vft0m9x",
+        "template_lk73kot",
+        e.target,
+        "ftEJaWAOJijuRDJon"
+      )
+      .then(
+        (result) => {
+          alert("email sent successfully");
+        },
+        (error) => {
+          alert("error sending email");
+        }
+      );
+    //clears the form after sending the email
+    e.target.reset();
+  }
 
-    function sendEmail(e) {
-      e.preventDefault();
-      emailjs.sendForm('service_vft0m9x', 'template_lk73kot',   
-      e.target, 'ftEJaWAOJijuRDJon')
-          .then((result) => {
-              alert('email sent successfully');
-          }, (error) => {
-              alert('error sending email');
-          });
-          //clears the form after sending the email
-          e.target.reset();
-      }
-    
-
-   
   return (
     <div className="main-bar">
       <div className="row grid-container">
         {/*---------------------------------
              -----Left Grid Section-------- 
              -----------------------------------*/}
-             <div className="col-lg-3 col-1">
-             <div className="left ">
-          <LeftGrid />
+        <div className="col-lg-3 col-1">
+          <div className="left ">
+            <LeftGrid />
+          </div>
+          <div className="leftnew">
+            <LeftGridNew />
+          </div>
         </div>
-        <div className="leftnew">
-                <LeftGridNew/>
-              </div>
-             </div>
-       
 
         <div className="middle col-lg-9 col-10">
           <div className="main-image">
@@ -61,23 +64,27 @@ function Contact() {
                   backgroundColor: "#2d2f33",
                   width: "60vh",
                   padding: "30px",
-                  marginBottom: "2vh"
+                  marginBottom: "2vh",
                 }}
               >
                 <div className="row">
-                  <div className="col-6" >
-                  <p style={{ color: "#fff" }}>Country:</p>
-                  <p style={{ color: "#fff" }}>City:</p>
-                  <p style={{ color: "#fff" }}> Street:</p>
-                
+                  <div className="col-6">
+                    <p style={{ color: "#fff" }}>Country:</p>
+                    <p style={{ color: "#fff" }}>City:</p>
+                    <p style={{ color: "#fff" }}> Street:</p>
                   </div>
-                  <div className="col-6" >
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Sri Lanka</p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Kurunegala</p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>Kurunegala</p>
+                  <div className="col-6">
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                      Sri Lanka
+                    </p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                      Kurunegala
+                    </p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                      Kurunegala
+                    </p>
                   </div>
                 </div>
-     
               </div>
               <div
                 className="col-6 mx-auto d-block"
@@ -85,24 +92,28 @@ function Contact() {
                   backgroundColor: "#2d2f33",
                   width: "60vh",
                   padding: "30px",
-                   marginBottom: "2vh"
+                  marginBottom: "2vh",
                 }}
               >
                 <div className="row">
                   <div className="col-6">
-                  <p style={{ color: "#fff" }}>Email:</p>
-                  <p style={{ color: "#fff" }}>Contact number:</p>
-                  <p style={{ color: "#fff" }}>Whatsapp:</p>
-                
+                    <p style={{ color: "#fff" }}>Email:</p>
+                    <p style={{ color: "#fff" }}>Contact number:</p>
+                    <p style={{ color: "#fff" }}>Whatsapp:</p>
                   </div>
                   <div className="col-6">
-                    <p className="text-muted" style={{ marginLeft: "-5.5vh" }}>supunnilakshana@gmail.com</p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>0770000000</p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>0770000000</p>
+                    <p className="text-muted" style={{ marginLeft: "-5.5vh" }}>
+                      supunnilakshana@gmail.com
+                    </p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                      0770000000
+                    </p>
+                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                      0770000000
+                    </p>
                   </div>
                 </div>
               </div>
-        
             </div>
 
             {/*---------------------------------
@@ -128,53 +139,65 @@ function Contact() {
                 padding: "8vh",
               }}
             >
-                <IconContext.Provider value={{ fontsize: "5px" }}>
-
-<form onSubmit={sendEmail}>
-<div className="form-group">
+              <IconContext.Provider value={{ fontsize: "5px" }}>
+                <form className="form" onSubmit={sendEmail}>
+                  <div className="form-group">
                     <FaUserAlt className="iconc" />
-            <input type='hidden' name='contact_number' />
-           
-            <input id='name' type='text' name='name'  className="form-control"
+                    <input type="hidden" name="contact_number" />
+
+                    <input
+                      id="name"
+                      type="text"
+                      name="name"
+                      className="form-control"
                       backgroundColor="#2d2f33"
-            placeholder='Your name'/>
-             </div>
+                      placeholder="Your name"
+                    />
+                  </div>
 
-             <div className="form-group">
+                  <div className="form-group">
                     <FaAt className="iconc" />
-           
-            <input id='email' type='email' name='email'  className="form-control"
-            placeholder='Your email' />
 
-            </div>
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      className="form-control"
+                      placeholder="Your email"
+                    />
+                  </div>
 
-            <div className="form-group">
+                  <div className="form-group">
                     <FaEnvelope className="iconc" style={{ height: "25vh" }} />
-           
-           <textarea id='message' name='message' className="form-control"
-           placeholder="Message..."/>
-           </div>
-           <button type="submit" className="btnc ">
+
+                    <textarea
+                      id="message"
+                      name="message"
+                      className="form-control"
+                      placeholder="Message..."
+                    />
+                  </div>
+                  <button type="submit" className="btnc ">
                     Send Message
                   </button>
-
-       </form>
-       </IconContext.Provider>
+                </form>
+              </IconContext.Provider>
             </div>
 
-     
+            <br />
+            <br />
 
-         
-            <br/><br/>
-
-     
             {/*---------------------------------
              -----Footer Section-------- 
              -----------------------------------*/}
 
-<div className="main-footer" style={{ color: "darkgrey ", paddingTop:"2.5vh" }}>
-              <p style={{paddingLeft:"3vh"}} className="text-muted">© 2022 All rights reserved.Template author: Dinithi Rathnayake  </p>
-              
+            <div
+              className="main-footer"
+              style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
+            >
+              <p style={{ paddingLeft: "3vh" }} className="dini text-muted">
+                © 2022 All rights reserved.Template author: Dinithi Rathnayake{" "}
+              </p>
             </div>
           </div>
         </div>

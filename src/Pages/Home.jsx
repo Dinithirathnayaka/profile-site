@@ -9,31 +9,22 @@ import "../component/History.css";
 
 function Home() {
   return (
-    <div >
+    <div>
       <div className=" row main-bar">
         {/*---------------------------------
              -----Left Grid Section-------- 
              -----------------------------------*/}
-             
-             <div className=" col-lg-3 col-1">
-              <div className="left ">
-              <LeftGrid  />
-              </div>
-              <div className="leftnew">
-                <LeftGridNew/>
-              </div>
-             
-          
-         </div>
-         
-            
-       
-        
+
+        <div className=" col-lg-3 col-1">
+          <div className="left ">
+            <LeftGrid />
+          </div>
+          <div className="leftnew">
+            <LeftGridNew />
+          </div>
+        </div>
 
         <div className="middle col-lg-9 col-11">
-       
-
-   
           <div className="main-image">
             <img src={image} style={{ height: "65vh", width: "100%" }} />
           </div>
@@ -90,39 +81,30 @@ function Home() {
              -----------------------------------*/}
 
             <div className=" row perform " style={{ marginTop: "35vh" }}>
-              <div className="col-3 percol">
+              <div className="col-4 percol">
                 <div className="num">10 +</div>
                 <p>Years Experience</p>
               </div>
-              <div className="col-3 percol">
+              <div className="col-4 percol">
                 <div className="num">143</div>
                 <p>
                   Completed <br />
                   Projects
                 </p>
               </div>
-              {/* <div className="col-3 percol">
-                <div className="num">114</div>
-                <p>Happy Customers</p>
-              </div>
-              <div className="col-3 percol">
-                <div className="num">20 +</div>
-                <p>
-                  Honers and <br />
-                  Awards
-                </p>
-              </div> */}
             </div>
 
-
-               {/*---------------------------------
+            {/*---------------------------------
              -----Education Section-------- 
              -----------------------------------*/}
 
-<h5 className="maintopic">Education</h5>
+            <h5 className="maintopic">Education</h5>
 
-<div className="row">
-            <div className=" mx-auto d-block history"  style={{width: "65vh",padding: "30px",marginBottom : "2vh" }} >
+            <div className="row">
+              <div
+                className=" mx-auto d-block history"
+                style={{ width: "65vh", padding: "30px", marginBottom: "2vh" }}
+              >
                 <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
                 <p className="small-text text-muted">Student</p>
                 <button className="btnh text-muted">jan 2020-jan 2021</button>
@@ -137,7 +119,10 @@ function Home() {
                 </a>
               </div>
 
-              <div className=" mx-auto d-block history" style={{width: "65vh",padding: "30px" ,marginBottom :"2vh"}}>
+              <div
+                className=" mx-auto d-block history"
+                style={{ width: "65vh", padding: "30px", marginBottom: "2vh" }}
+              >
                 <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
                 <p className="small-text text-muted">Student</p>
                 <button className="btnh text-muted">jan 2020-jan 2021</button>
@@ -151,8 +136,7 @@ function Home() {
                   DIPLOME
                 </a>
               </div>
-
-</div>
+            </div>
 
             {/*---------------------------------
              -----MyService Section-------- 
@@ -160,48 +144,53 @@ function Home() {
 
             <h5 className="maintopic">My Services</h5>
             <div className="row" style={{ marginBottom: "3vh" }}>
-
-              <div className="   mx-auto d-block hi" style={{ marginBottom: "2vh" }}>
+              <div
+                className="   mx-auto d-block hi"
+                style={{ marginBottom: "2vh" }}
+              >
                 <h6 className="subtopic">Mobile Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Delectus esse commodi deserunt vitae, vero quasi! Veniam
                   quaerat tenetur pariatur doloribus.
                 </p>
-
               </div>
 
-              <div className="  mx-auto d-block hi " style={{ marginBottom: "2vh" }}>
+              <div
+                className="  mx-auto d-block hi "
+                style={{ marginBottom: "2vh" }}
+              >
                 <h6 className="subtopic">Web Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Delectus esse commodi deserunt vitae, vero quasi! Veniam
                   quaerat tenetur pariatur doloribus.
                 </p>
-
-                </div>
-                <div className=" mx-auto d-block hi " style={{ marginBottom: "2vh" }}>
-                <h6 className="subtopic" >Destop Development</h6>
+              </div>
+              <div
+                className=" mx-auto d-block hi "
+                style={{ marginBottom: "2vh" }}
+              >
+                <h6 className="subtopic">Destop Development</h6>
                 <p className="content text-muted">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Delectus esse commodi deserunt vitae, vero quasi! Veniam
                   quaerat tenetur pariatur doloribus.
                 </p>
-            
               </div>
-              
-          
             </div>
- 
 
-         
             {/*---------------------------------
              -----Footer Section-------- 
              -----------------------------------*/}
 
-            <div className="main-footer" style={{ color: "darkgrey ", paddingTop:"2.5vh" }}>
-              <p style={{paddingLeft:"5%"}}>© 2022 All rights reserved.Template author: Dinithi Rathnayake </p>
-              
+            <div
+              className="main-footer"
+              style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
+            >
+              <p style={{ paddingLeft: "5%" }} className="dini text-muted">
+                © 2022 All rights reserved.Template author: Dinithi Rathnayake{" "}
+              </p>
             </div>
           </div>
         </div>

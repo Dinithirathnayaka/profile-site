@@ -14,60 +14,46 @@ body {
   border-bottom: 1px solid black;
   padding-left: 85vw;
   padding-top: 2.5vh;
-
 }
 
-.header-bar button{
+.header-bar button {
   background-color: #e3882d;
-
 }
 
-.homenav:hover{
+.homenav:hover {
   background-color: #616161;
-
 }
 
-.contactnav:hover{
- background-color: #616161;
+.contactnav:hover {
+  background-color: #616161;
 }
-
-
 
 .main-bar {
-
   width: 100%;
   height: 95vh;
   background-color: #282a2e;
   margin: auto;
- position: fixed;
+  position: fixed;
 }
 
-
-.leftnew{
+.leftnew {
   display: none;
 }
 
-
 .middle {
-  
   background-color: #282a2e;
-
-
 }
 
-.left{
+.left {
   padding: 0px;
-  
 }
 
-
-
-.contactbtn{
+.contactbtn {
   background-color: #e3882d;
   text-decoration: none;
   height: 45px;
   width: 70px;
-  font-style:none;
+  font-style: none;
   color: #fff;
   text-decoration: none !important;
 }
@@ -76,14 +62,13 @@ body {
 ---------Left Grid  Head---
 -------------------------*/
 
-.togclose{
+.togclose {
   font-size: 25px;
   color: #e3882d;
   margin: 10px;
   margin-right: -280px !important;
   display: none;
   cursor: pointer;
-
 }
 
 .profile {
@@ -114,7 +99,6 @@ body {
   text-align: center;
   font-size: 12px;
 }
-
 
 /*----------- -----------
 ---------Left Grid Middle---
@@ -195,8 +179,6 @@ body {
   font-size: 0.5em;
   text-anchor: middle;
 }
-
-
 
 .container1 {
   background-color: black;
@@ -301,7 +283,6 @@ body {
 ---------Left Grid Footer---
 -------------------------*/
 
-
 .footer-pro {
   height: 10vh;
   background-color: #2d2f33;
@@ -323,26 +304,22 @@ body {
 ---------Middle Grid Section---
 -------------------------*/
 
-.togopen{
+.togopen {
   font-size: 25px;
   color: #e3882d;
   margin: 10px;
-  display:none;
+  display: none;
 
   cursor: pointer;
-
 }
 
 .main-image {
   width: 100%;
   height: 65vh;
-  
 }
 
 .main-image img {
   opacity: 0.1;
-  
-
 }
 
 .middle-top {
@@ -396,7 +373,6 @@ body {
   margin-left: 5vh;
 }
 
-
 .btnm:hover {
   animation: bounce 1s ease infinite;
 }
@@ -440,9 +416,8 @@ body {
 
 .perform {
   margin-top: 30vh;
+  padding-left: 5vw;
 }
-
-
 
 .perform .num {
   color: #e3882d;
@@ -464,6 +439,7 @@ body {
 
 .content {
   color: darkgrey;
+  font-size: 14px;
 }
 
 /*----------- -----------
@@ -482,25 +458,22 @@ body {
 
 .main-footer {
   display: flex;
-  height: 10vh;
+  height: auto;
   background-color: #2d2f33;
 }
 
 .main-footer .dini {
   margin-right: 0px;
-  margin-top: 50%;
+
+  padding-bottom: 2.5vh;
 }
-
-
 
 /*----------- -----------
 ---------LeftGridNew Section---
 -------------------------*/
 
-
 #menu__toggle {
   opacity: 0;
-  
 }
 #menu__toggle:checked + .menu__btn > span {
   transform: rotate(45deg);
@@ -508,16 +481,13 @@ body {
 #menu__toggle:checked + .menu__btn > span::before {
   top: 0;
   transform: rotate(0deg);
-  
 }
 #menu__toggle:checked + .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
-  
 }
 #menu__toggle:checked ~ .menu__box {
   left: 0 !important;
-  
 }
 .menu__btn {
   position: fixed;
@@ -536,16 +506,16 @@ body {
   width: 100%;
   height: 2px;
   background-color: #616161;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
   z-index: 30;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
   z-index: 30;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
   z-index: 30;
 }
@@ -561,60 +531,33 @@ body {
   list-style: none;
   background-color: #2d2f33;
   /* box-shadow: 2px 2px 6px rgba(0, 0, 0, .4); */
-  transition-duration: .25s;
+  transition-duration: 0.25s;
   z-index: 20;
 }
 .menu__item {
   display: block;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
   z-index: 30;
 }
 
-
-
-
-
-@media (max-width:1000px){
-
-
-  .left .togclose{
+@media (max-width: 1000px) {
+  .left .togclose {
     display: block;
   }
 
-  .middle{
+  .middle {
     width: 200%;
   }
 
-
-
-  .middle .togopen{
+  .middle .togopen {
     display: block;
   }
 
-.left{
-  visibility: hidden;
-  
+  .left {
+    visibility: hidden;
+  }
+
+  .leftnew {
+    display: block;
+  }
 }
-
-.leftnew{
-  display: block;
- 
-  
-  
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-

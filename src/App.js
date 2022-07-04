@@ -2,7 +2,6 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,14 +16,18 @@ function App() {
       <Router>
         <div className="header-bar">
           <nav>
-         <Link to="/"><button className="homenav" >Home</button></Link>
-          <a href="/contact"><button className="contactnav">Contact</button></a>
+            <Link to="/">
+              <button className="homenav">Home</button>
+            </Link>
+            <a href="/contact">
+              <button className="contactnav">Contact</button>
+            </a>
           </nav>
         </div>
 
         <Routes>
           <Route path="/" element={<Home />} />
-         
+
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

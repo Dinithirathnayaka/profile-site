@@ -12,11 +12,10 @@ import ProgressBar from "@ramonak/react-progress-bar";
 function LeftGrid() {
   return (
     <div>
-
       <div className="profile text-center">
-      <div>
-<FaTimes className="togclose"/>
-      </div>
+        <div>
+          <FaTimes className="togclose" />
+        </div>
         <img src={faceimg} alt="" style={{ height: "15vh", width: "15vh" }} />
 
         <h6 className="text-cenetr">Supun Nilakshana Rajaguru</h6>
@@ -88,13 +87,11 @@ function LeftGrid() {
                 </text>
               </svg>
             </div>
-
-        
           </div>
 
           <div className="name">
-            <p style={{ color: "#fff" ,marginLeft :"20px"}}>Sinhala</p>
-            <p style={{ color: "#fff" ,marginRight :"80px" }}>English</p>
+            <p style={{ color: "#fff", marginLeft: "20px" }}>Sinhala</p>
+            <p style={{ color: "#fff", marginRight: "80px" }}>English</p>
 
             {/* <p style={{ color: "#fff" }}>Spanish</p> */}
           </div>
@@ -169,9 +166,7 @@ function LeftGrid() {
             fontSize: "12px",
             fontWeight: "bold",
           }}
-        >
-      
-        </div>
+        ></div>
       </div>
 
       {/*---------------------------------
@@ -182,7 +177,6 @@ function LeftGrid() {
           <FaLinkedin className="iconf" />
           <FaFacebook className="iconf" />
           <FaGithub className="iconf" />
-        
         </div>
       </div>
     </div>
