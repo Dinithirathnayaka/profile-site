@@ -17,7 +17,10 @@ function App() {
       <Router>
         <div className="header-bar">
           <Dropdown>
-            <Dropdown.Toggle id="dropdown-basic"></Dropdown.Toggle>
+            <Dropdown.Toggle
+              id="dropdown-basic"
+              className="dropdown"
+            ></Dropdown.Toggle>
 
             <Dropdown.Menu variant="dark">
               <Dropdown.Item href="/">My Profile</Dropdown.Item>

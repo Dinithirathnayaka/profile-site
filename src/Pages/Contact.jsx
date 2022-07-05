@@ -59,7 +59,7 @@ function Contact() {
             <div className="row contact">
               <h5 className="maintopic">Contact Information</h5>
               <div
-                className="col-6 mx-auto d-block"
+                className="col-6 mx-auto d-block boxc"
                 style={{
                   backgroundColor: "#2d2f33",
                   width: "60vh",
@@ -74,20 +74,20 @@ function Contact() {
                     <p style={{ color: "#fff" }}> Street:</p>
                   </div>
                   <div className="col-6">
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "6vh" }}>
                       Sri Lanka
                     </p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "6vh" }}>
                       Kurunegala
                     </p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "6vh" }}>
                       Kurunegala
                     </p>
                   </div>
                 </div>
               </div>
               <div
-                className="col-6 mx-auto d-block"
+                className="col-6 mx-auto d-block boxc"
                 style={{
                   backgroundColor: "#2d2f33",
                   width: "60vh",
@@ -102,13 +102,13 @@ function Contact() {
                     <p style={{ color: "#fff" }}>Whatsapp:</p>
                   </div>
                   <div className="col-6">
-                    <p className="text-muted" style={{ marginLeft: "-5.5vh" }}>
-                      supunnilakshana@gmail.com
+                    <p className="text-muted" style={{ marginLeft: "-11.5vh" }}>
+                      supunnilakshana1999@gmail.com
                     </p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "6vh" }}>
                       0770000000
                     </p>
-                    <p className="text-muted" style={{ marginLeft: "11vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "6vh" }}>
                       0770000000
                     </p>
                   </div>
@@ -129,16 +129,7 @@ function Contact() {
               Get In Touch
             </h5>
 
-            <div
-              className="form"
-              style={{
-                width: "100%",
-                height: "auto",
-                backgroundColor: "#2d2f33",
-                marginTop: "5vh",
-                padding: "8vh",
-              }}
-            >
+            <div className="form">
               <IconContext.Provider value={{ fontsize: "5px" }}>
                 <form className="form" onSubmit={sendEmail}>
                   <div className="form-group">
@@ -150,7 +141,6 @@ function Contact() {
                       type="text"
                       name="name"
                       className="form-control"
-                      backgroundColor="#2d2f33"
                       placeholder="Your name"
                     />
                   </div>
@@ -168,12 +158,12 @@ function Contact() {
                   </div>
 
                   <div className="form-group">
-                    <FaEnvelope className="iconc" style={{ height: "25vh" }} />
+                    <FaEnvelope className="iconc" />
 
                     <textarea
                       id="message"
                       name="message"
-                      className="form-control"
+                      className="form-control msg"
                       placeholder="Message..."
                     />
                   </div>

@@ -536,6 +536,12 @@ body {
   z-index: 30;
 }
 
+@media only screen and (max-width: 850px) {
+  #dropdown-basic {
+    margin-left: 85%;
+  }
+}
+
 @media (max-width: 1000px) {
   .left .togclose {
     display: block;
