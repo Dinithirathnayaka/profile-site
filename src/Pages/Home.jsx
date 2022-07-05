@@ -48,51 +48,11 @@ function Home() {
               I'm Supun Nilakshana,
             </h1>
 
-            {/* <div className="profile-details-role">
-              <span className="primary-text">
-                <h1>
-                  <code>
-                    {" "}
-                    I build
-                    <typical>
-                      loop={Infinity}
-                      steps=
-                      {[
-                        "ios and android applications.",
-                        1000,
-                        "design mocups.",
-                        1000,
-                        "web interfaces.",
-                        1000,
-                        "automation tools.",
-                        1000,
-                      ]}
-                    </typical>
-                  </code>
-                </h1>
-              </span>
-            </div> */}
-            {/* <button type="button" className="btnm">
-              WELCOME
-            </button> */}
-
             {/*---------------------------------
              -----Perform Section-------- 
              -----------------------------------*/}
 
-            <div className=" row perform " style={{ marginTop: "35vh" }}>
-              {/* <div className="col-4 percol">
-                <div className="num">10 +</div>
-                <p>Years Experience</p>
-              </div> */}
-              {/* <div className="col-4 percol">
-                <div className="num">143</div>
-                <p>
-                  Completed <br />
-                  Projects
-                </p>
-              </div> */}
-            </div>
+            <div className=" row perform " style={{ marginTop: "35vh" }}></div>
 
             {/*---------------------------------
              -----Education Section-------- 
