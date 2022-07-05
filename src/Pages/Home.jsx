@@ -130,7 +130,7 @@ function Home() {
                 <h6 className="tit">
                   ESOFT Metro Campus-Diploma in Software Engineering (DiSE)
                 </h6>
-                <p className="small-text text-muted">Student</p>
+                <p className="small-text text-muted">Completed</p>
                 {/* <button className="btnh text-muted">jan 2020-jan 2021</button> */}
                 <p className="pr">
                   This Diploma will provide the student with hands-on knowledge

@@ -27,7 +27,8 @@ function LeftGridNew() {
             <p>Full stack Developer </p>
             <p>
               {" "}
-              Undergraduate in BSc Hons in Computing and Information Systems
+              Undergraduate in BSc Hons <br />
+              in Computing and Information Systems
             </p>
           </div>
           {/*---------------------------------
@@ -167,28 +168,28 @@ function LeftGridNew() {
 
               <ProgressBar
                 completed={90}
-                className="wrapper4"
-                barContainerClassName="container4"
-                completedClassName="barCompleted4"
-                labelClassName="label4"
+                className="wrapper5"
+                barContainerClassName="container5"
+                completedClassName="barCompleted5"
+                labelClassName="label5"
               />
               <p className="bottomN">Html</p>
 
               <ProgressBar
                 completed={80}
-                className="wrapper4"
-                barContainerClassName="container4"
-                completedClassName="barCompleted4"
-                labelClassName="label4"
+                className="wrapper6"
+                barContainerClassName="container6"
+                completedClassName="barCompleted6"
+                labelClassName="label6"
               />
               <p className="bottomN">Css</p>
 
               <ProgressBar
                 completed={75}
-                className="wrapper4"
-                barContainerClassName="container4"
-                completedClassName="barCompleted4"
-                labelClassName="label4"
+                className="wrapper7"
+                barContainerClassName="container7"
+                completedClassName="barCompleted7"
+                labelClassName="label7"
               />
               <p className="bottomN">Java Script</p>
             </div>
@@ -227,13 +228,23 @@ function LeftGridNew() {
                     -----------------------------------*/}
           <div className="footer-pro menu__item">
             <div className="pro-icon">
-              <a href="http://www.linkedin.com/in/supun-nilakshana-916129202">
+              <a
+                href="http://www.linkedin.com/in/supun-nilakshana-916129202"
+                style={{ color: "darkgrey" }}
+              >
                 <FaLinkedin className="iconf" />
               </a>
-              <a href="https://www.facebook.com/supun.nilakshana.5">
+
+              <a
+                href="https://www.facebook.com/supun.nilakshana.5"
+                style={{ color: "darkgrey" }}
+              >
                 <FaFacebook className="iconf" />
               </a>
-              <a href="https://github.com/supunnilakshana">
+              <a
+                href="https://github.com/supunnilakshana"
+                style={{ color: "darkgrey" }}
+              >
                 <FaGithub className="iconf" />
               </a>
             </div>

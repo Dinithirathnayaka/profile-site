@@ -188,7 +188,7 @@ body {
 
 .barCompleted1 {
   background-color: #e3882d;
-  width: 95%;
+  width: 85%;
   height: 5px;
   margin-left: -13px;
 }
@@ -232,7 +232,7 @@ body {
 
 .barCompleted3 {
   background-color: #e3882d;
-  width: 75%;
+  width: 80%;
   height: 5px;
   margin-left: -13px;
 }
@@ -254,12 +254,78 @@ body {
 
 .barCompleted4 {
   background-color: #e3882d;
-  width: 85%;
+  width: 75%;
   height: 5px;
   margin-left: -13px;
 }
 
 .label4 {
+  font-size: 15px;
+  color: black;
+  color: darkgray;
+}
+
+.container5 {
+  background-color: black;
+  height: 5px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.barCompleted5 {
+  background-color: #e3882d;
+  width: 90%;
+  height: 5px;
+  margin-left: -13px;
+}
+
+.label5 {
+  font-size: 15px;
+  color: black;
+  color: darkgray;
+}
+
+.container6 {
+  background-color: black;
+  height: 5px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.barCompleted6 {
+  background-color: #e3882d;
+  width: 80%;
+  height: 5px;
+  margin-left: -13px;
+}
+
+.label6 {
+  font-size: 15px;
+  color: black;
+  color: darkgray;
+}
+
+.container7 {
+  background-color: black;
+  height: 5px;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.barCompleted7 {
+  background-color: #e3882d;
+  width: 75%;
+  height: 5px;
+  margin-left: -13px;
+}
+
+.label7 {
   font-size: 15px;
   color: black;
   color: darkgray;
@@ -295,7 +361,11 @@ body {
 .iconf {
   margin-top: 3vh;
   margin-right: 6vh;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.iconm {
+  text-decoration: none !important;
 }
 
 /*----------- -----------

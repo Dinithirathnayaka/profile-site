@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-
+import { IconContext } from "react-icons";
 import { FaCheck } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -20,7 +20,11 @@ function LeftGrid() {
 
         <h6 className="text-cenetr">Supun Nilakshana Rajaguru</h6>
         <p>Full Stack Developer </p>
-        <p> Undergraduate in BSc Hons in Computing and Information Systems</p>
+        <p>
+          {" "}
+          Undergraduate in BSc Hons <br />
+          in Computing and Information Systems
+        </p>
       </div>
       {/*---------------------------------
              -----Left Grid Middle Section--------
@@ -160,18 +164,18 @@ function LeftGrid() {
           <ProgressBar
             completed={90}
             className="wrapper5"
-            barContainerClassName="container4"
-            completedClassName="barCompleted4"
-            labelClassName="label4"
+            barContainerClassName="container5"
+            completedClassName="barCompleted5"
+            labelClassName="label5"
           />
           <p className="bottomN">Html</p>
 
           <ProgressBar
             completed={80}
             className="wrapper6"
-            barContainerClassName="container4"
-            completedClassName="barCompleted4"
-            labelClassName="label4"
+            barContainerClassName="container6"
+            completedClassName="barCompleted6"
+            labelClassName="label6"
           />
           <p className="bottomN">Css</p>
 
@@ -218,17 +222,32 @@ function LeftGrid() {
              -----Left Grid Footer Section--------
              -----------------------------------*/}
       <div className="footer-pro">
-        <div className="pro-icon">
-          <a href="http://www.linkedin.com/in/supun-nilakshana-916129202">
-            <FaLinkedin className="iconf" />
-          </a>
-          <a href="https://www.facebook.com/supun.nilakshana.5">
-            <FaFacebook className="iconf" />
-          </a>
-          <a href="https://github.com/supunnilakshana">
-            <FaGithub className="iconf" />
-          </a>
-        </div>
+        <IconContext.Provider
+          value={{ textDecoration: "none" }}
+          className="iconm"
+        >
+          <div className="pro-icon">
+            <a
+              href="http://www.linkedin.com/in/supun-nilakshana-916129202"
+              style={{ color: "darkgrey" }}
+            >
+              <FaLinkedin className="iconf" />
+            </a>
+
+            <a
+              href="https://www.facebook.com/supun.nilakshana.5"
+              style={{ color: "darkgrey" }}
+            >
+              <FaFacebook className="iconf" />
+            </a>
+            <a
+              href="https://github.com/supunnilakshana"
+              style={{ color: "darkgrey" }}
+            >
+              <FaGithub className="iconf" />
+            </a>
+          </div>
+        </IconContext.Provider>
       </div>
     </div>
   );
