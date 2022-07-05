@@ -21,10 +21,10 @@ function Contact() {
       )
       .then(
         (result) => {
-          alert("email sent successfully");
+          alert("Message sent successfully");
         },
         (error) => {
-          alert("error sending email");
+          alert("Error sending message");
         }
       );
     //clears the form after sending the email
@@ -102,14 +102,14 @@ function Contact() {
                     <p style={{ color: "#fff" }}>Whatsapp:</p>
                   </div>
                   <div className="col-6">
-                    <p className="text-muted" style={{ marginLeft: "-11.5vh" }}>
+                    <p className="text-muted" style={{ marginLeft: "-13vh" }}>
                       supunnilakshana1999@gmail.com
                     </p>
                     <p className="text-muted" style={{ marginLeft: "6vh" }}>
-                      0770000000
+                      076 3080158
                     </p>
                     <p className="text-muted" style={{ marginLeft: "6vh" }}>
-                      0770000000
+                      076 3080158
                     </p>
                   </div>
                 </div>
@@ -186,7 +186,7 @@ function Contact() {
               style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
             >
               <p style={{ paddingLeft: "3vh" }} className="dini text-muted">
-                © 2022 All rights reserved.Template author: Dinithi Rathnayake{" "}
+                © 2022 All rights reserved.
               </p>
             </div>
           </div>

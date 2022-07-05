@@ -1,8 +1,7 @@
 import React from "react";
 import image from "../images/mountain.jpg";
-import facemain from "../images/face-2.jpg";
-import { BiChevronRight } from "react-icons/bi";
-import { FaEllipsisV } from "react-icons/fa";
+import facemain from "../images/face-2.png";
+
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
 import "../component/History.css";
@@ -34,18 +33,19 @@ function Home() {
               <img
                 src={image}
                 alt=""
-                style={{ height: "63vh", width: "100%" }}
+                style={{ height: "53vh", width: "100%" }}
               />
             </div>
-            {/* <img
+            <img
               src={facemain}
               alt=""
               className="main-topimage"
-              style={{ height: "65vh", width: "55vh" }}
-            /> */}
+              style={{ height: "65vh", width: "" }}
+            />
             <h1>
-              Discover my Amazing <br />
-              Art Space!{" "}
+              Hello !!
+              <br />
+              I'm Supun Nilakshana,
             </h1>
 
             {/* <div className="profile-details-role">
@@ -72,26 +72,26 @@ function Home() {
                 </h1>
               </span>
             </div> */}
-            <button type="button" className="btnm">
+            {/* <button type="button" className="btnm">
               WELCOME
-            </button>
+            </button> */}
 
             {/*---------------------------------
              -----Perform Section-------- 
              -----------------------------------*/}
 
             <div className=" row perform " style={{ marginTop: "35vh" }}>
-              <div className="col-4 percol">
+              {/* <div className="col-4 percol">
                 <div className="num">10 +</div>
                 <p>Years Experience</p>
-              </div>
-              <div className="col-4 percol">
+              </div> */}
+              {/* <div className="col-4 percol">
                 <div className="num">143</div>
                 <p>
                   Completed <br />
                   Projects
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/*---------------------------------
@@ -105,35 +105,41 @@ function Home() {
                 className=" mx-auto d-block history"
                 style={{ width: "65vh", padding: "30px", marginBottom: "2vh" }}
               >
-                <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
-                <p className="small-text text-muted">Student</p>
-                <button className="btnh text-muted">jan 2020-jan 2021</button>
+                <h6 className="tit">
+                  Sabaragamuwa University Of Sri Lanka-Computing And Information
+                  Systems(CIS)
+                </h6>
+                <p className="small-text text-muted">Undergraduate</p>
+                <button className="btnh text-muted">oct 2019-oct 2024</button>
                 <p className="pr">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Maiores consequuntur iure delectus, sit repellendus
-                  voluptatibus fugiat minus neque, obcaecati nemo rerum cum
-                  blanditiis ipsam itaque magnam nam tempora magni. Nostrum.
+                  The Department of Computing and Information Systems (DCIS) at
+                  the Faculty of Applied Sciences, Sabaragamuwa University of
+                  Sri Lanka was established in 2011 while the BScHons Degree
+                  Programme in Computing and Information Systems was initiated
+                  back in 2008.
                 </p>
-                <a href="#" class="linkh">
-                  DIPLOME
-                </a>
+                {/* <a href="#" class="linkh">
+                  MORE
+                </a> */}
               </div>
 
               <div
                 className=" mx-auto d-block history"
                 style={{ width: "65vh", padding: "30px", marginBottom: "2vh" }}
               >
-                <h6 className="tit">Sabaragamuwa University Of Sri Lanka</h6>
+                <h6 className="tit">
+                  ESOFT Metro Campus-Diploma in Software Engineering (DiSE)
+                </h6>
                 <p className="small-text text-muted">Student</p>
-                <button className="btnh text-muted">jan 2020-jan 2021</button>
+                {/* <button className="btnh text-muted">jan 2020-jan 2021</button> */}
                 <p className="pr">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Maiores consequuntur iure delectus, sit repellendus
-                  voluptatibus fugiat minus neque, obcaecati nemo rerum cum
-                  blanditiis ipsam itaque magnam nam tempora magni. Nostrum.
+                  This Diploma will provide the student with hands-on knowledge
+                  in software engineering concepts, analysis, designing, project
+                  management, testing, and development with practical
+                  programming environments including java and C#.
                 </p>
                 <a href="#" class="linkh">
-                  DIPLOME
+                  MORE
                 </a>
               </div>
             </div>
@@ -150,9 +156,8 @@ function Home() {
               >
                 <h6 className="subtopic">Mobile Development</h6>
                 <p className="content text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                  quaerat tenetur pariatur doloribus.
+                  I can develop the mobile application with best performance and
+                  very smoothly for your organization.
                 </p>
               </div>
 
@@ -162,20 +167,18 @@ function Home() {
               >
                 <h6 className="subtopic">Web Development</h6>
                 <p className="content text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                  quaerat tenetur pariatur doloribus.
+                  I can develop the web application with best performance and
+                  very smoothly for your organization.
                 </p>
               </div>
               <div
                 className=" mx-auto d-block hi "
                 style={{ marginBottom: "2vh" }}
               >
-                <h6 className="subtopic">Destop Development</h6>
+                <h6 className="subtopic">Desktop Development</h6>
                 <p className="content text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                  quaerat tenetur pariatur doloribus.
+                  I can develop the desktop application with best performance
+                  and very smoothly for your organization.
                 </p>
               </div>
             </div>
@@ -189,7 +192,7 @@ function Home() {
               style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
             >
               <p style={{ paddingLeft: "5%" }} className="dini text-muted">
-                © 2022 All rights reserved.Template author: Dinithi Rathnayake{" "}
+                © 2022 All rights reserved.
               </p>
             </div>
           </div>

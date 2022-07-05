@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Dropdown from "react-bootstrap/Dropdown";
+import profile from "./images/face-1.jpg";
 
 import {
   BrowserRouter as Router,
@@ -21,9 +22,8 @@ function App() {
               id="dropdown-basic"
               className="dropdown"
             ></Dropdown.Toggle>
-
             <Dropdown.Menu variant="dark">
-              <Dropdown.Item href="/">My Profile</Dropdown.Item>
+              <Dropdown.Item href="/">Profile</Dropdown.Item>
               <Dropdown.Item href="/contact">Contact me</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
