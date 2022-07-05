@@ -2,7 +2,6 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Dropdown from "react-bootstrap/Dropdown";
-import profile from "./images/face-1.jpg";
 
 import {
   BrowserRouter as Router,
