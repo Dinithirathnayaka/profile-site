@@ -12,20 +12,16 @@ body {
   height: 60px;
   background-color: #2d2f33;
   border-bottom: 1px solid black;
-  padding-left: 85vw;
+  /* padding-left: 85vw; */
   padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
 }
 
-.header-bar button {
+#dropdown-basic {
+  margin-left: 95%;
+  font-size: 13px;
   background-color: #e3882d;
-}
-
-.homenav:hover {
-  background-color: #616161;
-}
-
-.contactnav:hover {
-  background-color: #616161;
+  text-decoration: none;
 }
 
 .main-bar {
