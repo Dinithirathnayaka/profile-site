@@ -427,7 +427,7 @@ body {
 
 .main-topimage {
   margin-top: -62vh;
-  margin-left: 95vh;
+  margin-left: 98vh;
   padding-bottom: 4vh;
   overflow: hidden;
   position: relative;
@@ -650,13 +650,13 @@ body {
 
 @media only screen and (max-width: 1630px) {
   .main-topimage {
-    margin-left: 75vh;
+    margin-left: 90vh;
   }
 }
 
 @media only screen and (max-width: 1415px) {
   .main-topimage {
-    margin-left: 60vh;
+    margin-left: 70vh;
   }
 }
 
