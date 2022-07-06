@@ -25,7 +25,7 @@ function LeftGridNew() {
 
             <h6 className="text-cenetr">Supun Nilakshana Rajaguru</h6>
             <p>Full stack Developer </p>
-            <p>
+            <p className="text-muted">
               {" "}
               Undergraduate in BSc Hons <br />
               in Computing and Information Systems
