@@ -196,28 +196,16 @@ function History() {
              -----Footer Section-------- 
              -----------------------------------*/}
 
-            <div className="main-footer" style={{ color: "darkgrey " }}>
-              <p>© 2021 Artur Carter</p>
-              <p style={{ marginLeft: "75vh " }}>
-                Template author: Dinithi Rathnayake
-              </p>
+            <div
+              className="main-footer text-center mx-auto d-block"
+              style={{ color: "darkgrey " }}
+            >
+              <p> © 2023 All rights reserved.</p>
             </div>
           </div>
         </div>
 
-        <div className="right">
-          {/*---------------------------------
-             -----Right Grid Section-------- 
-             -----------------------------------*/}
-          {/* <div className="tog-icon">
-            <BiMenu className="iconm" />
-          </div>
-          <div className="main-menu"></div>
-          <div className="div-lang">
-            <div className="fr">FR</div>
-            <div className="en">EN</div>
-          </div> */}
-        </div>
+        <div className="right"></div>
       </div>
     </div>
   );

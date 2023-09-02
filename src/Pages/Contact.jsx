@@ -35,10 +35,34 @@ function Contact() {
   return (
     <div>
       <div className="header-bar">
-        {" "}
-        <Link to="/">
-          <button className="proc">Profile</button>
-        </Link>
+        <nav className="headernav">
+          <ul>
+            <li style={{ color: "#fff" }}>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Profile
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/portfolio"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Portfolio
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <div className="main-bar">
@@ -194,8 +218,8 @@ function Contact() {
                 className="main-footer"
                 style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
               >
-                <p style={{ paddingLeft: "3vh" }} className="dini text-muted">
-                  © 2022 All rights reserved.
+                <p className="dini text-muted text-center mx-auto d-block">
+                  © 2023 All rights reserved.
                 </p>
               </div>
             </div>

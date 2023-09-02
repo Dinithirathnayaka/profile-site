@@ -522,6 +522,26 @@ body {
   font-size: 14px;
 }
 
+.headernav {
+  float: right;
+  display: flex !important;
+  color: #ffc107;
+  text-decoration: none !important;
+}
+
+.headernav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.headernav li {
+  margin-right: 30px !important;
+  text-decoration: none;
+  color: #ffc107;
+}
+
 /*----------- -----------
 ---------recomendation---
 -------------------------*/
@@ -544,8 +564,8 @@ body {
 
 .main-footer .dini {
   margin-right: 0px;
-
   padding-bottom: 2.5vh;
+  text-align: center !important;
 }
 
 /*----------- -----------

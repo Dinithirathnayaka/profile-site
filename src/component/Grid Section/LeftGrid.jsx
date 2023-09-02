@@ -19,8 +19,8 @@ function LeftGrid() {
         <img src={faceimg} alt="" style={{ height: "15vh", width: "15vh" }} />
 
         <h6 className="text-cenetr">Supun Nilakshana Rajaguru</h6>
-        <p>Full Stack Developer </p>
-        <p className="text-muted">
+        <p style={{ color: "#fff" }}>Full Stack Developer </p>
+        <p className="">
           {" "}
           Undergraduate in BSc Hons <br />
           in Computing and Information Systems
@@ -49,70 +49,11 @@ function LeftGrid() {
 
         <div>
           <div class="flex-wrapper">
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart orange">
-                <path
-                  class="circle-bg"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
+            <div class="single-chart"></div>
 
-                <path
-                  class="circle"
-                  stroke-dasharray="85, 100"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">
-                  85%
-                </text>
-              </svg>
-            </div>
+            <div class="single-chart"></div>
 
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart orange">
-                <path
-                  class="circle-bg"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-
-                <path
-                  class="circle"
-                  stroke-dasharray="75, 100"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">
-                  75%
-                </text>
-              </svg>
-            </div>
-
-            <div class="single-chart">
-              <svg viewBox="0 0 36 36" class="circular-chart green">
-                <path
-                  class="circle-bg"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <path
-                  class="circle"
-                  stroke-dasharray="70, 100"
-                  d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.35" class="percentage">
-                  70%
-                </text>
-              </svg>
-            </div>
+            <div class="single-chart"></div>
           </div>
 
           <div className="name">
@@ -124,72 +65,9 @@ function LeftGrid() {
           </div>
         </div>
         <hr style={{ color: "darkgrey" }} />
-        <div>
-          <ProgressBar
-            completed={85}
-            className="wrapper1"
-            barContainerClassName="container1"
-            completedClassName="barCompleted1"
-            labelClassName="label1 "
-          />
-          <p className="bottomN">Java</p>
 
-          <ProgressBar
-            completed={80}
-            className="wrapper2"
-            barContainerClassName="container2"
-            completedClassName="barCompleted2"
-            labelClassName="label2"
-          />
-          <p className="bottomN">Python</p>
-
-          <ProgressBar
-            completed={80}
-            className="wrapper3"
-            barContainerClassName="container3"
-            completedClassName="barCompleted3"
-            labelClassName="label3"
-          />
-          <p className="bottomN">Dart</p>
-
-          <ProgressBar
-            completed={75}
-            className="wrapper4"
-            barContainerClassName="container4"
-            completedClassName="barCompleted4"
-            labelClassName="label4"
-          />
-          <p className="bottomN">C#</p>
-
-          <ProgressBar
-            completed={90}
-            className="wrapper5"
-            barContainerClassName="container5"
-            completedClassName="barCompleted5"
-            labelClassName="label5"
-          />
-          <p className="bottomN">Html</p>
-
-          <ProgressBar
-            completed={80}
-            className="wrapper6"
-            barContainerClassName="container6"
-            completedClassName="barCompleted6"
-            labelClassName="label6"
-          />
-          <p className="bottomN">Css</p>
-
-          <ProgressBar
-            completed={75}
-            className="wrapper7"
-            barContainerClassName="container7"
-            completedClassName="barCompleted7"
-            labelClassName="label7"
-          />
-          <p className="bottomN">Java Script</p>
-        </div>
         <hr style={{ color: "darkgrey" }} />
-        <div className="listpro text-muted" style={{ color: "darkgrey" }}>
+        <div className="listpro " style={{ color: "darkgrey" }}>
           <p>
             {" "}
             <FaCheck style={{ color: "#e3882d", marginRight: "4px" }} />
