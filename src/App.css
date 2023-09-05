@@ -142,6 +142,11 @@ body {
 .single-chart {
   width: 40%;
   justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.single-chart img {
+  margin-left: 27px !important;
 }
 
 .circular-chart {
