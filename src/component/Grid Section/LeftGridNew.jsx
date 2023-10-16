@@ -1,5 +1,5 @@
 import React from "react";
-import faceimg from "../../images/face-1.jpg";
+import faceimg from "../../images/face-1new.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -39,9 +39,8 @@ function LeftGridNew() {
             <img
               src={faceimg}
               alt=""
-              style={{ height: "15vh", width: "15vh" }}
+              style={{ height: "100px", width: "100px", background: "cover" }}
             />
-
             <h6 className="text-cenetr">Supun Nilakshana Rajaguru</h6>
             <p style={{ color: "#fff" }}>Full stack Developer </p>
             <p className="">
@@ -207,6 +206,25 @@ function LeftGridNew() {
             <div>
               <div class="flex-wrapper">
                 <div class="single-chart">
+                  <img src={grapql} alt="" style={{ width: "70px" }} />
+                  <p
+                    style={{ color: "#fff", marginRight: "" }}
+                    className="text-center"
+                  >
+                    Grapgql
+                  </p>
+                </div>
+
+                <div class="single-chart">
+                  <img src={docker} alt="" style={{ width: "70px" }} />
+                  <p
+                    style={{ color: "#fff", marginRight: "" }}
+                    className="text-center"
+                  >
+                    Docker
+                  </p>
+                </div>
+                <div class="single-chart">
                   <img src={python} alt="" style={{ width: "70px" }} />
                   <p
                     style={{ color: "#fff", marginLeft: "" }}
@@ -215,7 +233,20 @@ function LeftGridNew() {
                     Python
                   </p>
                 </div>
+              </div>
+            </div>
 
+            <div>
+              <div class="flex-wrapper">
+                <div class="single-chart">
+                  <img src={Boostrap} alt="" style={{ width: "70px" }} />
+                  <p
+                    style={{ color: "#fff", marginLeft: "" }}
+                    className="text-center"
+                  >
+                    Bootstrap
+                  </p>
+                </div>
                 <div class="single-chart">
                   <img src={html} alt="" style={{ width: "70px" }} />
                   <p
@@ -233,54 +264,6 @@ function LeftGridNew() {
                     className="text-center"
                   >
                     CSS
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="flex-wrapper">
-                <div class="single-chart">
-                  <img src={Boostrap} alt="" style={{ width: "70px" }} />
-                  <p
-                    style={{ color: "#fff", marginLeft: "" }}
-                    className="text-center"
-                  >
-                    Bootstrap
-                  </p>
-                </div>
-
-                <div class="single-chart">
-                  <img src={next} alt="" style={{ width: "70px" }} />
-                  <p
-                    style={{ color: "#fff", marginRight: "" }}
-                    className="text-center"
-                  >
-                    Next.js
-                  </p>
-                </div>
-
-                <div class="single-chart">
-                  <img src={docker} alt="" style={{ width: "70px" }} />
-                  <p
-                    style={{ color: "#fff", marginRight: "" }}
-                    className="text-center"
-                  >
-                    Docker
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="flex-wrapper">
-                <div class="single-chart">
-                  <img src={grapql} alt="" style={{ width: "70px" }} />
-                  <p
-                    style={{ color: "#fff", marginRight: "" }}
-                    className="text-center"
-                  >
-                    Grapgql
                   </p>
                 </div>
               </div>

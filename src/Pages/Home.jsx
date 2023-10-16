@@ -28,14 +28,14 @@ function Home() {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/portfolio"
                 style={{ textDecoration: "none", color: " #FFC107" }}
               >
                 Portfolio
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
@@ -88,6 +88,35 @@ function Home() {
                 className=" row perform "
                 style={{ marginTop: "35vh" }}
               ></div>
+
+              {/*---------------------------------
+             -----Work Experience Section-------- 
+             -----------------------------------*/}
+
+              <h5 className="maintopic">Work Experience</h5>
+
+              <div className="row">
+                <div
+                  className=" mx-auto d-block history"
+                  style={{
+                    width: "65vh",
+                    padding: "30px",
+                    marginBottom: "2vh",
+                  }}
+                >
+                  <h6 className="tit">
+                    Intern Software Engineer at Appri Technologies Pvt. Ltd
+                  </h6>
+                  <p className="small-text text-muted">2022-2023</p>
+
+                  <p className="pr">
+                    Mobile and Backend Development Proficient in Flutter, MVVM
+                    with Flutter, GraphQL, Hasura, PostgreSQL, TypeScript,
+                    Node.js, Sentry, and Supabase Experienced with Google Maps
+                    APIs and Geolocator (Flutter).
+                  </p>
+                </div>
+              </div>
 
               {/*---------------------------------
              -----Education Section-------- 
@@ -147,35 +176,6 @@ function Home() {
                     knowledge in software engineering concepts, analysis,
                     designing, project management, testing, and development with
                     practical programming environments including java and C#.
-                  </p>
-                </div>
-              </div>
-
-              {/*---------------------------------
-             -----Work Experience Section-------- 
-             -----------------------------------*/}
-
-              <h5 className="maintopic">Work Experience</h5>
-
-              <div className="row">
-                <div
-                  className=" mx-auto d-block history"
-                  style={{
-                    width: "65vh",
-                    padding: "30px",
-                    marginBottom: "2vh",
-                  }}
-                >
-                  <h6 className="tit">
-                    Intern Software Engineer at Appri Technologies Pvt. Ltd
-                  </h6>
-                  <p className="small-text text-muted">2022-2023</p>
-
-                  <p className="pr">
-                    Mobile and Backend Development Proficient in Flutter, MVVM
-                    with Flutter, GraphQL, Hasura, PostgreSQL, TypeScript,
-                    Node.js, Sentry, and Supabase Experienced with Google Maps
-                    APIs and Geolocator (Flutter).
                   </p>
                 </div>
               </div>

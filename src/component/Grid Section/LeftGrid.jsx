@@ -1,5 +1,5 @@
 import React from "react";
-import faceimg from "../../images/face-1.jpg";
+import faceimg from "../../images/face-1new.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -202,12 +202,45 @@ function LeftGrid() {
         <div>
           <div class="flex-wrapper">
             <div class="single-chart">
+              <img src={grapql} alt="" style={{ width: "70px" }} />
+              <p
+                style={{ color: "#fff", marginRight: "" }}
+                className="text-center"
+              >
+                Grapgql
+              </p>
+            </div>
+
+            <div class="single-chart">
+              <img src={docker} alt="" style={{ width: "70px" }} />
+              <p
+                style={{ color: "#fff", marginRight: "" }}
+                className="text-center"
+              >
+                Docker
+              </p>
+            </div>
+            <div class="single-chart">
               <img src={python} alt="" style={{ width: "70px" }} />
               <p
                 style={{ color: "#fff", marginLeft: "" }}
                 className="text-center"
               >
                 Python
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex-wrapper">
+            <div class="single-chart">
+              <img src={Boostrap} alt="" style={{ width: "70px" }} />
+              <p
+                style={{ color: "#fff", marginLeft: "" }}
+                className="text-center"
+              >
+                Bootstrap
               </p>
             </div>
 
@@ -228,54 +261,6 @@ function LeftGrid() {
                 className="text-center"
               >
                 CSS
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="flex-wrapper">
-            <div class="single-chart">
-              <img src={Boostrap} alt="" style={{ width: "70px" }} />
-              <p
-                style={{ color: "#fff", marginLeft: "" }}
-                className="text-center"
-              >
-                Bootstrap
-              </p>
-            </div>
-
-            <div class="single-chart">
-              <img src={next} alt="" style={{ width: "70px" }} />
-              <p
-                style={{ color: "#fff", marginRight: "" }}
-                className="text-center"
-              >
-                Next.js
-              </p>
-            </div>
-
-            <div class="single-chart">
-              <img src={docker} alt="" style={{ width: "70px" }} />
-              <p
-                style={{ color: "#fff", marginRight: "" }}
-                className="text-center"
-              >
-                Docker
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="flex-wrapper">
-            <div class="single-chart">
-              <img src={grapql} alt="" style={{ width: "70px" }} />
-              <p
-                style={{ color: "#fff", marginRight: "" }}
-                className="text-center"
-              >
-                Grapgql
               </p>
             </div>
           </div>

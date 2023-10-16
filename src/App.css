@@ -92,6 +92,8 @@ body {
   margin-left: 40%;
   transform: translate(-60%, 20%);
   margin-bottom: 5vh;
+  width: auto;
+  height: auto;
 }
 
 .profile h6 {

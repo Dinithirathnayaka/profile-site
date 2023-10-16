@@ -53,14 +53,14 @@ function Contact() {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/portfolio"
                 style={{ textDecoration: "none", color: " #FFC107" }}
               >
                 Portfolio
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
