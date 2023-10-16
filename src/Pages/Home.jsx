@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../images/mountain.jpg";
-import facemain from "../images/face-2.png";
+import facemain from "../images/removeprofile.png";
 import { Link } from "react-router-dom";
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
@@ -57,22 +57,22 @@ function Home() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "65vh", width: "100%" }} />
+              <img src={image} style={{ height: "70vh", width: "100%" }} />
             </div>
 
-            <div className="middle-top">
+            <div className="middle-top" style={{ paddingTop: "20px" }}>
               <div className="top-image">
                 <img
                   src={image}
                   alt=""
-                  style={{ height: "53vh", width: "100%" }}
+                  style={{ height: "60vh", width: "100%" }}
                 />
               </div>
               <img
                 src={facemain}
                 alt=""
                 className="main-topimage"
-                style={{ height: "65vh", width: "" }}
+                style={{ height: "60vh", width: "" }}
               />
               <h1>
                 Hello !!
@@ -147,6 +147,35 @@ function Home() {
                     knowledge in software engineering concepts, analysis,
                     designing, project management, testing, and development with
                     practical programming environments including java and C#.
+                  </p>
+                </div>
+              </div>
+
+              {/*---------------------------------
+             -----Work Experience Section-------- 
+             -----------------------------------*/}
+
+              <h5 className="maintopic">Work Experience</h5>
+
+              <div className="row">
+                <div
+                  className=" mx-auto d-block history"
+                  style={{
+                    width: "65vh",
+                    padding: "30px",
+                    marginBottom: "2vh",
+                  }}
+                >
+                  <h6 className="tit">
+                    Intern Software Engineer at Appri Technologies Pvt. Ltd
+                  </h6>
+                  <p className="small-text text-muted">2022-2023</p>
+
+                  <p className="pr">
+                    Mobile and Backend Development Proficient in Flutter, MVVM
+                    with Flutter, GraphQL, Hasura, PostgreSQL, TypeScript,
+                    Node.js, Sentry, and Supabase Experienced with Google Maps
+                    APIs and Geolocator (Flutter).
                   </p>
                 </div>
               </div>
